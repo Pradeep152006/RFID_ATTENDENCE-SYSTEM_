@@ -23,10 +23,10 @@ byte bufferLen = 18;
 byte readBlockData[18];
 //-----------------------------------------
 String card_holder_name;
-const String sheet_url = "https://script.google.com/macros/s/AKfycbzZOBSw-wFLgTfwVl3lxkSco6JHxHJb9MjCkHSgbRiMDY1pU9aOlob8NQkmiVyiSP_o/exec";  // Replace with your actual script URL
+const String sheet_url = "https://script.google.com/macros/*****************************************";  // Replace with your actual script URL
 //-----------------------------------------
-#define WIFI_SSID "Ravindra"         // Replace with your WiFi SSID
-#define WIFI_PASSWORD "ravi12345"     // Replace with your WiFi Password
+#define WIFI_SSID "*******"         // Replace with your WiFi SSID
+#define WIFI_PASSWORD "********"     // Replace with your WiFi Password
 //-----------------------------------------
 
 // OLED configuration
