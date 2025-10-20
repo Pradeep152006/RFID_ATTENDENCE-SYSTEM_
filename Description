@@ -1,0 +1,44 @@
+Features
+  
+
+* Wi-Fi Enabled (ESP8266) – Sends attendance data directly to Google Sheets via the internet.
+
+* RFID Module (RC522) – Detects student or employee ID cards.
+
+* Google Sheets Integration – Stores Name, Card ID, Date, and Time automatically.
+
+*OLED Display – Displays the name and status (e.g., “Access Granted”, “Access Denied”) on a compact screen.
+
+* Unique Identification – Each RFID tag is linked to a specific person in the database.
+
+* Real-Time Clock (optional) – Ensures accurate time logging even without an internet connection.
+  
+
+ How It Works
+  
+
+The user taps their RFID card near the reader.
+
+The ESP8266 reads the card UID and checks it against pre-registered IDs.
+
+The OLED display shows the user’s name and confirmation message.
+
+The ESP8266 sends data (Name, UID, Timestamp) to Google Sheets using a web app script.
+
+Attendance data is automatically stored and viewable in Google Sheets from anywhere.
+  
+
+Components Used
+  
+
+ESP8266 (NodeMCU)
+
+RFID Reader Module (RC522)
+
+OLED Display (SSD1306 0.96")
+
+RFID Tags / Cards
+
+Jumper Wires
+
+Breadboard or PCB
